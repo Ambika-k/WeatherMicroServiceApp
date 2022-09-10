@@ -1,0 +1,19 @@
+server:
+  port: 8091
+twillio:
+  account_sid: AC091255778de63b63dc18999750cb4d88
+  auth_token: 11aae63b6eca222d4ddcff3eb2b2157d
+  from_number: '+18586304908'
+weather:
+  apikey: 26eb4d58dbff0c98b1f641509904c35e
+  url: api.openweathermap.org/data/2.5/weather
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultzone: http://localhost:8761/eureka
+
+spring:
+  application:
+    name: SmsService
