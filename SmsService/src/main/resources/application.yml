@@ -1,8 +1,6 @@
 server:
   port: 8091
 twillio:
-  account_sid: AC091255778de63b63dc18999750cb4d88
-  auth_token: 11aae63b6eca222d4ddcff3eb2b2157d
   from_number: '+18586304908'
 weather:
   apikey: 26eb4d58dbff0c98b1f641509904c35e
